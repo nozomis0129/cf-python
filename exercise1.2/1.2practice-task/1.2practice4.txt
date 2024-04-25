@@ -1,0 +1,6 @@
+'hello, how are you?'
+1. str3[3:] >>> 'lo, how are you?'
+2. str3[-3:] >>> 'ou?'
+3. str3[2:9:3] >>> 'l,o'
+4. str3[::-2] >>> '?o r o olh'
+5. str3[2:8] >>> 'llo, h'
