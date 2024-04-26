@@ -3,3 +3,5 @@
 ### why I chose the data structure
 #### Task1. recipe_1
 I chose dictionary structure because it allows us to store values and objects indexed by identifiers or keys internally.
+#### Task3. all_recipes
+I chose the list structure so that I can modify or delete the elements stored inside later.
