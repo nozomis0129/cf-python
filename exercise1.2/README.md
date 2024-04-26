@@ -5,7 +5,7 @@
 - Summarize the use of objects in Python
 - Create a data structure for your Recipe app
 
-### Contenets
+### Contents
 - 1.2practice-task folder (5 screenshots of the practice tasks)
 - 1.2screenshots folder (2 screenshots of the task)
 - learning journal
