@@ -1,0 +1,377 @@
+Python for Web Developers 
+Learning Journal
+
+
+
+
+
+
+
+
+
+
+Objective
+We find that the students who do particularly well in our courses are those who practice metacognition. Metacognition is the art of thinking about thinking; developing a deeper understanding of your own thought processes. With the help of this Learning Journal, you’ll broaden your metacognitive knowledge and skills by reflecting on what you learn in this course. 
+
+Thanks to this Learning Journal, when you finish the course you’ll have a complete and detailed record of your learning journey and progress over time. We really recommend that you take the time to complete this Journal; students do better in CF courses and in the working world as a result!
+
+Directions
+First complete the pre-work section before you start your course. Then, once you’ve begun learning, take time after each Exercise to return to this Journal and respond to the prompts. 
+
+There will be 3 to 5 prompts per Exercise, and we recommend spending about 10 to 15 minutes in total answering them. Don’t overthink it—just write whatever comes to mind! 
+
+Also make sure that, once you’ve started filling this document in, you upload it as a deliverable on the platform. This is so that your mentor can also see your Journal and how you’re progressing over time. Don’t worry though—what you write here won’t affect how you’re graded for the Exercise tasks. The learning journal is mostly for you and your self-evaluation!
+
+Pre-Work: Before You Start the Course
+
+Reflection questions (to complete before your first mentor call)
+
+What experiences have you had with coding and/or programming so far? What other experiences (programming-related or not) have you had that may help you as you progress through this course?
+ I have just completed full stack web development immersion. Before taking this course, I was self studying HTML, CSS for around 3 months. This is my first time to learn Python. 
+
+What do you know about Python already? What do you want to know?
+ I know python is used for machine learning,  automating and so on. I would like to know how to build an application with Python.
+
+What challenges do you think may come up while you take this course? What will help you face them? Think of specific spaces, people, and times of day of week that might be favorable to your facing challenges and growing. Plan for how to solve challenges that arise. 
+ I will be stuck during working on a task. In that case, I'll make suer if I followed the instruction and then, search some articles or stack overflow. If I can't address the issue, I will reach out.
+
+Remember, you can always refer to Exercise 1.4 of the Orientation course if you’re not sure whom to reach out to for help and support.
+
+Exercise 1.1: Getting Started with Python 
+Learning Goals
+
+Summarize the uses and benefits of Python for web development
+Prepare your developer environment for programming with Python
+
+Reflection Questions
+
+In your own words, what is the difference between frontend and backend web development? If you were hired to work on backend programming for a web application, what kinds of operations would you be working on?
+ Fronted web development is creating UI and visual elements of a web page, while Backend web development is building mechanism in a server-side where the data is processed and stored. Backend web developer is responsible for handling user input, managing database, implementing business logic, configuring servers, and ensuring security.
+
+Imagine you’re working as a full-stack developer in the near future. Your team is asking for your advice on whether to use JavaScript or Python for a project, and you think Python would be the better choice. How would you explain the similarities and differences between the two languages to your team? Drawing from what you learned in this Exercise, what reasons would you give to convince your team that Python is the better option? 
+(Hint: refer to the Exercise section “The Benefits of Developing with Python”)
+ Here are some reasons why Python is a better choice than JavaScript. First, Python's most notable feature is its readability, which ensures that code is easy to understand and maintain. Additionally, you can install a variety of packages with pip, a popular package management system. Developers can work on projects more quickly because Python comes with essential frameworks for URL routing, form handling, and validation. Overall, Python's readability, package management, and built-in tools make it a strong choice.
+
+Now that you’ve had an introduction to Python, write down 3 goals you have for yourself and your learning during this Achievement. You can reflect on the following questions if it helps you. What do you want to learn about Python? What do you want to get out of this Achievement? Where or what do you see yourself working on after you complete this Achievement?
+
+I would like to learn how to build a complete application that demonstrates my potential as a full-stack web developer. Given that the industry trends change rapidly, flexibility is essential for success in this field. I aim to showcase my skills and adaptability to my future employer.
+
+Exercise 1.2: Data Types in Python
+Learning Goals
+
+Explain variables and data types in Python
+Summarize the use of objects in Python
+Create a data structure for your Recipe app
+
+Reflection Questions
+
+Imagine you’re having a conversation with a future colleague about whether to use the iPython Shell instead of Python’s default shell. What reasons would you give to explain the benefits of using the iPython Shell over the default one?
+
+The IPython shell is more popular than the default shell because it’s easier to read and use. For instance, code displayed in the IPython shell is highlighted or indented as appropriate. Additionally, the IPython shell lets us test out small chunks of code quickly and easily. This feature enables fast and handy testing. Overall, there are many advantages to using the IPython shell over the default shell.
+
+Python has a host of different data types that allow you to store and organize information. List 4 examples of data types that Python recognizes, briefly define them, and indicate whether they are scalar or non-scalar.
+
+
+
+
+A frequent question at job interviews for Python developers is: what is the difference between lists and tuples in Python? Write down how you would respond.
+
+The tuples and the lists are similar because they are linear arrays. However, the elements within a tuple cannot be manipulated or changed after they are declared. The only way to change an element is to write a new version of the tuple and assign it the original variable name. On the other hand, internal elements of the list can be modified or deleted. You can also rearrange or even insert new elements in lists. In summary, the lists are mutable and the tuples don't have the functionality.
+
+In the task for this Exercise, you decided what you thought was the most suitable data structure for storing all the information for a recipe. Now, imagine you’re creating a language-learning app that helps users memorize vocabulary through flashcards. Users can input vocabulary words, definitions, and their category (noun, verb, etc.) into the flashcards. They can then quiz themselves by flipping through the flashcards. Think about the necessary data types and what would be the most suitable data structure for this language-learning app. Between tuples, lists, and dictionaries, which would you choose? Think about their respective advantages and limitations, and where flexibility might be useful if you were to continue developing the language-learning app beyond vocabulary memorization. 
+
+In this case, the dictionary is the most suitable data structure. A dictionary stores values and objects within itself indexed by identifiers, or keys. This function allows to use keys as item name, which are vocabulary words, definitions, and category, and value as inputed by users. Moreover, a dictionary allows to update and delete values easily. This feature is necessary to build a language learning app because user would edit and delete their vocabulary cards. However, if the app is developed beyond vocabulary memorization app, other structure such as a tuple could be more suitable.
+
+Exercise 1.3: Functions and Other Operations in Python
+Learning Goals
+
+Implement conditional statements in Python to determine program flow
+Use loops to reduce time and effort in Python programming
+Write functions to organize Python code
+
+Reflection Questions
+
+In this Exercise, you learned how to use if-elif-else statements to run different tasks based on conditions that you define. Now practice that skill by writing a script for a simple travel app using an if-elif-else statement for the following situation:  
+The script should ask the user where they want to travel. 
+The user’s input should be checked for 3 different travel destinations that you define. 
+If the user’s input is one of those 3 destinations, the following statement should be printed: “Enjoy your stay in ______!”
+If the user’s input is something other than the defined destinations, the following statement should be printed: “Oops, that destination is not currently available.”
+	
+Write your script here. (Hint: remember what you learned about indents!)
+
+
+
+Imagine you’re at a job interview for a Python developer role. The interviewer says “Explain logical operators in Python”. Draft how you would respond.
+
+The logical operator is used to combine conditional operator. 'And operator' returns True if both statements are true. 'Or operator' returns True if one of the statement is true. 'Not operator' reverse the result, returns False if the statement is true.
+
+What are functions in Python? When and why are they useful?
+
+There are some built-in functions in Python. Functions are blocks of code that process and manipulate data to return a result. We can also create custom functions, which helps condense steps and save time. Additionally, they keep the code clean and concise by avoiding the repetition of the same lines of code.
+
+In the section for Exercise 1 in this Learning Journal, you were asked in question 3 to set some goals for yourself while you complete this course.  In preparation for your next mentor call, make some notes on how you’ve progressed towards your goals so far.
+
+I've been working on mastering the fundamentals of Python. I hope this will help me tackle more complex tasks, like building an entire application, in future exercises.
+
+Exercise 1.4: File Handling in Python
+Learning Goals
+
+Use files to store and retrieve data in Python
+
+Reflection Questions
+
+Why is file storage important when you’re using Python? What would happen if you didn’t store local files?
+
+Local files are necessary because when you use variables in your script to assign and keep track of values, that data no longer exists when the script stops running, and can’t be retrieved for later use. That’s why, local storage is important.
+
+In this Exercise you learned about the pickling process with the pickle.dump() method. What are pickles? In which situations would you choose to use pickles and why? 
+           
+Pickles convert complexed data into a “pickle”, which is a package stream of bytes, and then write it to a binary file. When we need to convert complexed data structure like dictionaries or lists into a binary format, we can use the pickle.dump() method to carry out this process. Similarly, the pickle.load() method allows to convert a byte stream back into a Python object. 
+
+In Python, what function do you use to find out which directory you’re currently in? What if you wanted to change your current working directory?
+
+If I need to know which directory I’m currently in, I use “os.getcw()” function. For changing current working directory, “os.chdir(<“path to desired folder”>)” function.
+
+Imagine you’re working on a Python script and are worried there may be an error in a block of code. How would you approach the situation to prevent the entire script from terminating due to an error?
+
+Try-except blocks help manage unexpected situations or errors without stopping the execution of a program. If no exceptions occur inside the ‘try’ block, the code runs as usual. If an exception occurs, the execution is interrupted, and the code inside the ‘except’ block will be executed to handle the error. Overall, the ‘try’ block can ensure a ‘safe zone’, while the ‘except’ block helps handle errors effectively.
+
+You’re now more than halfway through Achievement 1! Take a moment to reflect on your learning in the course so far. How is it going? What’s something you’re proud of so far? Is there something you’re struggling with? What do you need more practice with? Feel free to use these notes to guide your next mentor call. 
+
+I’m glad to get used to this new language. My previous learning experience, particularly the JavaScript for Full Stack Web Development course, has contributed to studying Python. However, I need more practice,  even with short piece of code, to prevent forgetting what I’ve learned so far. I felt confused when I encountered a simple function that I couldn’t remember. Yesterday, I was exploring some examples on W3 Schools to practice.
+
+
+Exercise 1.5: Object-Oriented Programming in Python
+Learning Goals
+
+Apply object-oriented programming concepts to your Recipe app
+
+Reflection Questions
+
+In your own words, what is object-oriented programming? What are the benefits of OOP?
+
+Object-oriented programming (OOP) is one of the coding styles. When we write code following the OOP paradigm, an object should be defined using a class. The object contains data attributes and methods that will be executed by the object, and it can be inherited by another object. Additionally, we can define new methods inside the inheriting object. This feature prevents repetition and redundancy, resulting in cleaner and more efficient code.
+
+What are objects and classes in Python? Come up with a real-world example to illustrate how objects and classes work.
+
+In Python, objects are instances of classes. They are consisted from data(attributes) and behaviors(methods). For example, you can have a 'Car' class where each car object has attributes like, 'color', 'model', and 'year', and methods like, 'drive()' and 'park()'.
+Classes are templates for creating objects. They define the structure and behavior of objects. Using the Car example again, the Car class would define what attributes and methods each car object will have.
+
+In your own words, write brief explanations of the following OOP concepts; 100 to 200 words per method is fine. 
+
+
+
+
+Exercise 1.6: Connecting to Databases in Python
+
+Learning Goals
+
+Create a MySQL database for your Recipe app
+
+Reflection Questions
+
+What are databases and what are the advantages of using them?
+
+List 3 data types that can be used in MySQL and describe them briefly:
+
+
+
+
+ In what situations would SQLite be a better choice than MySQL?
+
+Think back to what you learned in the Immersion course. What do you think about the differences between JavaScript and Python as programming languages?
+
+Now that you’re nearly at the end of Achievement 1, consider what you know about Python so far. What would you say are the limitations of Python as a programming language?
+
+Exercise 1.7: Finalizing Your Python Program
+Learning Goals
+
+Interact with a database using an object-relational mapper
+Build your final command-line Recipe application
+
+
+Reflection Questions
+
+What is an Object Relational Mapper and what are the advantages of using one?
+
+By this point, you’ve finished creating your Recipe app. How did it go? What’s something in the app that you did well with? If you were to start over, what’s something about your app that you would change or improve?
+
+Imagine you’re at a job interview. You’re asked what experience you have creating an app using Python. Taking your work for this Achievement as an example, draft how you would respond to this question.
+ 
+You’ve finished Achievement 1! Before moving on to Achievement 2, take a moment to reflect on your learning in the course so far: 
+What went well during this Achievement? 
+What’s something you’re proud of? 
+What was the most challenging aspect of this Achievement? 
+Did this Achievement meet your expectations? Did it give you the confidence to start working with your new Python skills?
+What’s something you want to keep in mind to help you do your best in Achievement 2?
+
+Well done—you’ve now completed the Learning Journal for Achievement 1. As you’ll have seen, a little metacognition can go a long way!
+
+Pre-Work: Before You Start Achievement 2
+
+In the final part of the learning journal for Achievement 1, you were asked if there’s anything—on reflection—that you’d keep in mind and do similarly or differently during Achievement 2. Think about these questions again:
+
+Was your study routine effective during Achievement 1? If not, what will you do differently during Achievement 2?
+Reflect on your learning and project work for Achievement 1. What were you most proud of? How will you repeat or build on this in Achievement 2?
+What difficulties did you encounter in the last Achievement? How did you deal with them? How could this experience prepare you for difficulties in Achievement 2?
+
+Note down your answers and discuss them with your mentor in a call if you like.
+
+Remember that can always refer to Exercise 1.4 of the Orientation course if you’re not sure whom to reach out to for help and support.
+
+
+Exercise 2.1: Getting Started with Django
+
+Learning Goals
+
+Explain MVT architecture and compare it with MVC
+Summarize Django’s benefits and drawbacks 
+Install and get started with Django
+
+Reflection Questions
+
+Suppose you’re a web developer in a company and need to decide if you’ll use vanilla (plain) Python for a project, or a framework like Django instead. What are the advantages and drawbacks of each?
+
+In your own words, what is the most significant advantage of Model View Template (MVT) architecture over Model View Controller (MVC) architecture?
+
+Now that you’ve had an introduction to the Django framework, write down three goals you have for yourself and your learning process during this Achievement. You can reflect on the following questions if it helps:
+What do you want to learn about Django? 
+What do you want to get out of this Achievement? 
+Where or what do you see yourself working on after you complete this Achievement?
+
+
+Exercise 2.2: Django Project Set Up
+
+Learning Goals
+
+Describe the basic structure of a Django project 
+Summarize the difference between projects and apps
+Create a Django project and run it locally
+Create a superuser for a Django web application
+
+Reflection Questions
+
+Suppose you’re in an interview. The interviewer gives you their company’s website as an example, asking you to convert the website and its different parts into Django terms. How would you proceed? For this question, you can think about your dream company and look at their website for reference. 
+(Hint: In the Exercise, you saw the example of the CareerFoundry website in the Project and Apps section.)
+
+In your own words, describe the steps you would take to deploy a basic Django application locally on your system. 
+
+Do some research about the Django admin site and write down how you’d use it during your web application development.
+
+Exercise 2.3: Django Models
+
+Learning Goals
+
+Discuss Django models, the “M” part of Django’s MVT architecture
+Create apps and models representing different parts of your web application 
+Write and run automated tests
+
+Reflection Questions
+
+Do some research on Django models. In your own words, write down how Django models work and what their benefits are.
+
+In your own words, explain why it is crucial to write test cases from the beginning of a project. You can take an example project to explain your answer.
+
+Exercise 2.4: Django Views and Templates
+
+Learning Goals
+
+Summarize the process of creating views, templates, and URLs 
+Explain how the “V” and “T” parts of MVT architecture work
+Create a frontend page for your web application
+
+Reflection Questions
+
+Do some research on Django views. In your own words, use an example to explain how Django views work.
+
+Imagine you’re working on a Django web development project, and you anticipate that you’ll have to reuse lots of code in various parts of the project. In this scenario, will you use Django function-based views or class-based views, and why?
+
+ Read Django’s documentation on the Django template language and make some notes on its basics.
+
+Exercise 2.5: Django MVT Revisited
+
+Learning Goals
+
+Add images to the model and display them on the frontend of your application
+Create complex views with access to the model
+Display records with views and templates
+
+
+Reflection Questions
+
+In your own words, explain Django static files and how Django handles them.
+
+Look up the following two Django packages on Django’s official documentation and/or other trusted sources. Write a brief description of each.
+
+
+
+
+
+
+You’re now more than halfway through Achievement 2! Take a moment to reflect on your learning in the course so far. How is it going? What’s something you’re proud of so far? Is there something you’re struggling with? What do you need more practice with? You can use these notes to guide your next mentor call. 
+
+Exercise 2.6: User Authentication in Django
+
+Learning Goals
+
+Create authentication for your web application
+Use GET and POST methods 
+Password protect your web application’s views
+
+Reflection Questions
+
+In your own words, write down the importance of incorporating authentication into an application. You can take an example application to explain your answer. 
+
+In your own words, explain the steps you should take to create a login for your Django web application. 
+
+Look up the following three Django functions on Django’s official documentation and/or other trusted sources and write a brief description of each.
+
+
+
+
+
+
+
+
+
+Exercise 2.7: Data Analysis and Visualization in Django
+
+Learning Goals
+
+Work on elements of two-way communication like creating forms and buttons
+Implement search and visualization (reports/charts) features
+Use QuerySet API, DataFrames (with pandas), and plotting libraries (with matplotlib)
+
+Reflection Questions
+
+Consider your favorite website/application (you can also take CareerFoundry). Think about the various data that your favorite website/application collects. Write down how analyzing the collected data could help the website/application. 
+
+Read the Django official documentation on QuerySet API. Note down the different ways in which you can evaluate a QuerySet.
+
+In the Exercise, you converted your QuerySet to DataFrame. Now do some research on the advantages and disadvantages of QuerySet and DataFrame, and explain the ways in which DataFrame is better for data processing.
+
+
+Exercise 2.8: Deploying a Django Project
+Learning Goals
+
+Enhance user experience and look and feel of your web application using CSS and JS
+Deploy your Django web application on a web server 
+Curate project deliverables for your portfolio
+
+Reflection Questions
+
+Explain how you can use CSS and JavaScript in your Django web application.
+
+In your own words, explain the steps you’d need to take to deploy your Django web application. 
+
+
+
+(Optional) Connect with a few Django web developers through LinkedIn or any other network. Ask them for their tips on creating a portfolio to showcase Python programming and Django skills. Think about which tips could help you improve your portfolio.
+
+You’ve now finished Achievement 2 and, with it, the whole course! Take a moment to reflect on your learning:
+What went well during this Achievement? 
+What’s something you’re proud of? 
+What was the most challenging aspect of this Achievement? 
+Did this Achievement meet your expectations? Did it give you the confidence to start working with your new Django skills?
+
+Well done—you’ve now completed the Learning Journal for the whole course. 
